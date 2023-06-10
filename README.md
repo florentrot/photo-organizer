@@ -1,0 +1,9 @@
+## photo-organizer
+Use this Spring Boot App to organize your family photos
+![app](https://github.com/florentrot/photo-organizer/assets/99581506/e8f88460-dd14-4ca2-a640-c2afae338bc1)
+
+## Input
+![input](https://github.com/florentrot/photo-organizer/assets/99581506/66e88eb0-1704-4105-a87b-251f0cf40ecc)
+
+## Output
+![final output](https://github.com/florentrot/photo-organizer/assets/99581506/d0bc9de7-1963-4bc7-bd2d-15995f7db060)
