@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Picture Organizer</title>
+    <link th:href="@{styles/style.css}" rel="stylesheet" />
+</head>
+<body>
+<div class="card">
+    <h1 class="card-title">Picture Organizer</h1>
+    <form method="post" action="/organize">
+        <label for="inputFolder">Input Folder:</label>
+        <input type="text" id="inputFolder" name="inputFolder" value="" placeholder="Ex. D:\Input" required><br>
+
+        <label for="outputFolder">Output Folder:</label>
+        <input type="text" id="outputFolder" name="outputFolder" value="" placeholder="Ex. D:\Output" required><br>
+
+        <input type="submit" value="Organize Pictures">
+    </form>
+</div>
+</body>
+</html>
