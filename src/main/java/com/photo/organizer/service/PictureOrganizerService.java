@@ -13,7 +13,7 @@ import java.util.Locale;
 @Service
 public class PictureOrganizerService {
 
-    public void organizePictures(String inputFolderPath, String outputFolderPath) throws IOException {
+    public void organizePictures(String inputFolderPath, String outputFolderPath, String extension) throws IOException {
         // Create output folder if it doesn't exist
         Files.createDirectories(Paths.get(outputFolderPath));
 
@@ -21,7 +21,7 @@ public class PictureOrganizerService {
         Files.walkFileTree(Paths.get(inputFolderPath), new SimpleFileVisitor<Path>() {
             @Override
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                if (isPictureFile(file)) {
+                if (isPictureFile(file, extension)) {
                     // Get picture modified date
                     Date modifiedDate = new Date(attrs.lastModifiedTime().toMillis());
 
@@ -49,8 +49,8 @@ public class PictureOrganizerService {
         });
     }
 
-    private boolean isPictureFile(Path file) {
+    private boolean isPictureFile(Path file, String extension) {
         String fileName = file.getFileName().toString().toLowerCase();
-        return fileName.endsWith(".jpg") || fileName.endsWith(".jpeg");
+        return fileName.endsWith(extension);
     }
 }

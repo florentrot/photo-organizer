@@ -32,10 +32,11 @@ public class PictureOrganizerController {
 
 	@PostMapping("/organize")
 	public String organizePictures(@RequestParam("inputFolder") String inputFolder,
-								   @RequestParam("outputFolder") String outputFolder) throws IOException {
+								   @RequestParam("outputFolder") String outputFolder,
+								   @RequestParam("extension") String extension) throws IOException {
 		properties.setInputFolderPath(inputFolder);
 		properties.setOutputFolderPath(outputFolder);
-		pictureOrganizerService.organizePictures(inputFolder, outputFolder);
+		pictureOrganizerService.organizePictures(inputFolder, outputFolder, extension);
 		return "redirect:/";
 	}
 }
