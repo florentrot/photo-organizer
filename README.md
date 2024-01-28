@@ -1,6 +1,6 @@
 ## photo-organizer
-ChatGPT did it for me.
-Use this Spring Boot App to organize your family photos
+ChatGPT did it for me (70%)
+Use this Spring Boot App to organize your family photos, videos, and so on
 ![app](https://github.com/florentrot/photo-organizer/assets/99581506/e8f88460-dd14-4ca2-a640-c2afae338bc1)
 
 ## Input
