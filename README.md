@@ -8,3 +8,8 @@ Use this Spring Boot App to organize your family photos
 
 ## Output
 ![final output](https://github.com/florentrot/photo-organizer/assets/99581506/d0bc9de7-1963-4bc7-bd2d-15995f7db060)
+
+
+The last update
+![image](https://github.com/florentrot/photo-organizer/assets/99581506/445ca41b-254c-43f6-99a4-6c00c8cd7406)
+
