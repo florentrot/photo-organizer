@@ -12,5 +12,6 @@ Use this Spring Boot App to organize your family photos, videos, and so on
 
 
 ## Latest update
-![image](https://github.com/florentrot/photo-organizer/assets/99581506/445ca41b-254c-43f6-99a4-6c00c8cd7406)
+![image](https://github.com/florentrot/photo-organizer/assets/99581506/ccdb5b5b-6f63-4c0a-bf19-77c304cc7f12)
+
 
